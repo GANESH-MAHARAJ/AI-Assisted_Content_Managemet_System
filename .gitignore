@@ -1,2 +1,22 @@
+# === Project-specific ===
 arxiv_pdfs/
 llama2model/llama2env/
+pdf_tags.tagged_files.json
+
+# === Dependencies ===
+node_modules/
+frontend/node_modules/
+
+# === Build artifacts ===
+dist/
+build/
+
+# === Environment / secrets ===
+.env
+*.env
+
+# === OS / IDE noise ===
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
