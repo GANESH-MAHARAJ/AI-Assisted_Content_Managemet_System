@@ -1,0 +1,45 @@
+.mainContainer {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f4f4;
+  text-align: center;
+  padding: 30px 20px;
+}
+
+
+.imageContainer {
+  margin: 20px auto;
+  max-width: 900px;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+
+.header {
+  display: flex;
+  align-items: center;
+  position: relative;
+  background-color: #003366;
+  color: #fff;
+  padding: 20px 20px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.logo {
+  height: 85px;
+  margin: 0;
+  flex-shrink: 0;
+}
+
+/* Scope h1 styling only inside header */
+.header h1 {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 0;
+  font-size: 2 rem;
+  white-space: nowrap;
+  pointer-events: none;
+}
