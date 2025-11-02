@@ -1,0 +1,13 @@
+1. run "mongod" in cmd
+2. open dockerdesktop and run typesense:27.1
+3. Activate "llama2env"" from llama2model folder
+4. goto backend dir and run "python app.py"
+5. cd frontend
+6. cd sspl-cms
+7. npm install
+8. npm run dev
+
+*** NOTE UPDATE THE FOLDER PATH OF PDF AS REQUIRED***
+***User names and passwords*** ->
+ADMIN : admin, admin123 | gan,gan | sspl,sspl 
+USER : user,user123 | gan,gan | sspl,sspl 

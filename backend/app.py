@@ -16,7 +16,8 @@ sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 app = Flask(__name__)
 CORS(app, resources={r'/*': {'origins': '*'}})
 
-UPLOAD_FOLDER = r'C:\SSPL_CMS\SAMPELproject\arxiv_pdfs'
+UPLOAD_FOLDER = r'C:\InternShip\SSPL_CMS\SAMPELproject\arxiv_pdfs'
+
 os.makedirs(UPLOAD_FOLDER, exist_ok=True)
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 
