@@ -81,34 +81,6 @@ The system enables researchers to locate relevant documents by meaning, not just
 
 ---
 
-## Directory Structure
-
-```
-ai-cms/
-├─ backend/
-│  ├─ app.py
-│  ├─ api/
-│  ├─ core/
-│  ├─ services/
-│  ├─ workers/
-│  ├─ models/
-│  ├─ scripts/
-│  └─ requirements.txt
-├─ frontend/
-│  ├─ admin/
-│  └─ user/
-├─ tools/
-│  ├─ docker/
-│  └─ configs/
-├─ data/
-│  ├─ incoming/
-│  └─ processed/
-├─ .env.example
-└─ README.md
-```
-
----
-
 ## Prerequisites
 
 - Python 3.11+
@@ -144,7 +116,8 @@ git clone https://github.com/<your-org>/ai-cms.git
 cd ai-cms
 py -3.11 -m venv .venv
 .\.venv\Scripts\Activate.ps1
-pip install -r backendequirements.txt
+pip install -r backend
+equirements.txt
 Copy-Item .env.example .env
 docker compose -f tools\docker\docker-compose.yml up -d
 python backend\scripts\init_typesense.py
