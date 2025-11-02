@@ -1,7 +1,20 @@
-# === Project-specific ===
+# === Custom Large/Generated Files ===
 arxiv_pdfs/
 llama2model/llama2env/
 pdf_tags.tagged_files.json
+
+# === Python / Virtual Environments ===
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyd
+*.so
+venv/
+env/
+.pytest_cache/
+# Logs and data
+*.log
+*.sqlite3
 
 # === Dependencies ===
 node_modules/
@@ -10,6 +23,7 @@ frontend/node_modules/
 # === Build artifacts ===
 dist/
 build/
+*.zip
 
 # === Environment / secrets ===
 .env
@@ -20,3 +34,7 @@ build/
 Thumbs.db
 .vscode/
 .idea/
+*~
+# Backup files
+*.bak
+*.orig
